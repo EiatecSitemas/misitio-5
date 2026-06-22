@@ -1,0 +1,29 @@
+import { mediaManager } from 'wix-media-backend';
+
+export async function getLogosImages() {
+
+    try {
+
+        const result = await mediaManager.searchFiles({
+            parentFolderIds: ['logos']
+        });
+
+        const images = result.items.map(item => item.fileUrl);
+
+        return {
+            success: true,
+            images
+        };
+
+    } catch (err) {
+
+        console.error(err);
+
+        return {
+            success: false,
+            error: err.message
+        };
+
+    }
+
+}

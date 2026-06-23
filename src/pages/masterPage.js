@@ -21,6 +21,7 @@ const COL_ALIADOS   = 'logos';          // Nombre real de la colección
 // ═══════════════════════════════════════════════════════════════
 //  FUNCIÓN AUXILIAR: obtener el origen correcto
 // ═══════════════════════════════════════════════════════════════
+console.log("🔥 MASTER PAGE CARGADO");
 function obtenerOrigin() {
     try {
         const { location } = wixWindow;

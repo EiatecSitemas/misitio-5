@@ -6,7 +6,7 @@ import wixData    from 'wix-data';
 import wixWindow  from "@wix/site-window";
 import { enviarCorreo } from 'backend/sendEmail.web';
 
-const ID_SERVICIOS        = '#html25';   // Carrusel de servicios
+const ID_SERVICIOS        = '#html8';   // Carrusel de servicios
 const ID_PROYECTOS        = '#html20';   // Galería de proyectos
 const ID_CONTACTO         = '#html10';   // Formulario
 const ID_SCROLL           = '#html19';   // Scroll overlay

@@ -6,12 +6,12 @@ import wixData    from 'wix-data';
 import wixWindow  from "@wix/site-window";
 import { enviarCorreo } from 'backend/sendEmail.web';
 
-const ID_SERVICIOS        = '#html255';   // Carrusel de servicios
+const ID_SERVICIOS        = '#html25';   // Carrusel de servicios
 const ID_PROYECTOS        = '#html20';   // Galería de proyectos
-const ID_CONTACTO         = '#html10';   // Formulario
+const ID_CONTACTO         = '#html22';   // Formulario
 const ID_SCROLL           = '#html19';   // Scroll overlay
 const ID_MAPA_PROYECTOS   = '#html2';    // Mapa nacional de proyectos
-const ID_ALIADOS          = '#html13';   // Carrusel de aliados
+const ID_ALIADOS          = '#html28';   // Carrusel de aliados
 
 const COL_SERVICIOS = 'Servicios';
 const COL_PROYECTOS = 'Proyectos';
